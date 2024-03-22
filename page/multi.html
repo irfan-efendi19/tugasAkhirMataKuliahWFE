@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MULTICAM LIVE STREAMING | DIGITREND</title>
+    <link rel="icon" type="image/x-icon" href="/image/favicon.ico" />
+    <link rel="stylesheet" href="detailpage.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      class="navbar fixed-top bg-body-tertiary bg-dark border-bottom border-bottom-dark"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand mx-auto" href="/index.html">
+          <img
+            src="/image/icon.png"
+            alt="Logo"
+            width="30"
+            height="30"
+            class="d-inline-block align-text-top"
+          />
+          Digitrend
+        </a>
+      </div>
+    </nav>
+    <!-- NAVBAR -->
+
+    <div class="slider">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="/image/1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/image/2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="/image/3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!--DESC-->
+    <section class="desc">
+      <h1>MULTICAM LIVE STREAMING</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate,
+        quis.
+      </p>
+    </section>
+
+    <!-- CLIENT -->
+    <section id="client" class="client">
+      <h1>PATNER US</h1>
+      <div class="client-icon">
+        <div class="menucard">
+          <img
+            src="https://recruitment.pertamina.com/assets/frontend/images/pertamina-white.png"
+            width="200px"
+            alt=""
+          />
+        </div>
+        <div class="menucard">
+          <img
+            src="https://www.ilcs.co.id/cfind/source/images/pelindo-solusi-digital-logo-putih.png"
+            width="200px"
+            alt=""
+          />
+        </div>
+        <div class="menucard">
+          <img
+            src="https://www.ajk.co.id/asset/img/mitra_3.png"
+            width="120px"
+            alt=""
+          />
+        </div>
+        <div class="menucard">
+          <img
+            src="https://asset.kompas.com/data/2022/kelanaindonesia/assets/images/bumn-logo.png"
+            width="220px"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section class="contact" id="contact">
+      <h2>CONTACT FORM</h2>
+      <div class="contact-container">
+        <div class="contact-text">
+          <h3>For More Information</h3>
+          <p>
+            Jl. Perumahan Gunung Sari Indah Blok LL-3 , Kedurus, Kec.
+            Karangpilang, Kota SBY, Jawa Timur 60223
+          </p>
+        </div>
+        <form class="contact-input" action="" id="formSubmit">
+          <p>Name</p>
+          <input type="text" id="name" />
+          <p>E-Mail</p>
+          <input type="email" id="email" />
+          <p>Message</p>
+          <textarea
+            placeholder="Enter message..."
+            maxlength="1000"
+            minlength="10"
+            id="comment"
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/form.js"></script>
+  </body>
+</html>
